@@ -67,7 +67,7 @@
 
 <main id="home-store-prosus">
     <HomeHeader />
-    <HomeCategoriesSection categories={store_categories}/>
+    <HomeCategoriesSection category_clicked_handler={handleCategoryChange} categories={store_categories}/>
     <HomeMiddleBanner/>
     <HomeCategoryDesc/>
     <HomeStoreProducts products={category_items}/>

@@ -41,7 +41,8 @@
         background: white;
         height: 66vh;
         align-items: center;
-        padding: 5vh 0;
+        padding: 3vh 0;
+        margin: 2vh 0;
     }
 
     .pcc-conter-wrapper {

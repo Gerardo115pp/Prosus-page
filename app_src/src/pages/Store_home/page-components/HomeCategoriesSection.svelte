@@ -1,14 +1,14 @@
 <script>
     export let categories = [];
-
+    export let category_clicked_handler = () => {};
 
 </script>
 
 <section id="prosus-store-categories">
     <div id="psc-categories-wrapper">
-        {#each categories as category}
-            <div class="psc-cw-category-container">
-                <div class="psc-cw-cc-image">
+        {#each categories as category, index}
+            <div  class="psc-cw-category-container">
+                <div on:click={() => category_clicked_handler(index)} class="psc-cw-cc-image">
                     <img src={category.thumbnailUrl} alt="">
                 </div>
                 <div class="psc-cw-cc-name">
