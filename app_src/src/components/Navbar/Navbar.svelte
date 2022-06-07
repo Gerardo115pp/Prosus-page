@@ -58,4 +58,10 @@
     #mpn-menu a:hover {
         color: #00bcd4;
     }
+
+    @media only screen and (max-width: 768px) {
+        #mpn-menu {
+            display: none;
+        }
+    }
 </style>

@@ -103,4 +103,12 @@
         cursor: pointer;
     }
 
+
+    @media only screen and (max-width: 768px) {
+        .product-card-container {
+            width: 90%;
+            height: auto;
+            margin: 2vh 0;
+        }
+    }
 </style>
