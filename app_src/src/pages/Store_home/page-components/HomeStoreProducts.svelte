@@ -14,7 +14,7 @@
 <style>
     #home-products-content {
         background: rgb(41,46,118);
-        background: linear-gradient(1deg, rgba(41,46,118,1) 0%, rgba(78,82,145,1) 100%);
+        background: var(--theme-gradient);
         padding: 10vh 0;
     }
 

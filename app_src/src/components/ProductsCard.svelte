@@ -107,8 +107,30 @@
     @media only screen and (max-width: 768px) {
         .product-card-container {
             width: 90%;
-            height: auto;
+            height: 60vh;
             margin: 2vh 0;
+        }
+
+        .pcc-cw-product-info {
+            display: block;
+        }
+
+        .pcc-cw-info-name {
+            font-size: 3vw;
+        }
+
+        .pcc-cw-info-features-container {
+            font-size: 3.5vw;
+            margin-top: 3vh;
+        }
+
+        .pcc-cw-info-controls {
+            margin-top: 8vh;
+        }
+
+        .control-green {
+            padding: 1vh 5vw;
+
         }
     }
 </style>

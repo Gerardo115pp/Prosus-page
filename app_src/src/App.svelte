@@ -12,6 +12,7 @@
         --theme-color: #11478E;
         --green-theme-color: #05DB83;
         --purple-theme-color: #2A2F77;
+        --theme-gradient: linear-gradient(90deg, #292E76 0%, #616395 100%);
         --box-roundness: 20px;
     }
 
